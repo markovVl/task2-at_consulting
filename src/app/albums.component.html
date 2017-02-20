@@ -1,0 +1,9 @@
+<h2>Список альбомов</h2>
+  <ul class="albums">
+
+
+    <li *ngFor="let album of albums" [routerLink]="['/detail', album.id]">
+  <a>    <span class="badge">{{album.id}}</span> {{album.title}}</a>
+</li>
+
+  </ul>

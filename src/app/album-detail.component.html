@@ -1,0 +1,13 @@
+
+
+
+<h2>Фотографии альбома id {{ this.route.snapshot.params.id }}</h2>
+<button (click)="goBack()">Назад</button>
+
+<div *ngFor="let album of albums; let i = index">
+
+  <img src="{{ album.thumbnailUrl }}"/>
+
+
+
+           </div>
