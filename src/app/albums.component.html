@@ -2,7 +2,7 @@
   <ul class="albums">
 
 
-    <li *ngFor="let album of albums" [routerLink]="['/detail', album.id]">
+    <li *ngFor="let album of albums" [routerLink]="['/albums', album.id, 'photos']">
   <a>    <span class="badge">{{album.id}}</span> {{album.title}}</a>
 </li>
 

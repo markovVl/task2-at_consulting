@@ -21,7 +21,7 @@ const routes: Routes = [
 
 
   {
-      path: 'detail/:id',
+      path: 'albums/:id/photos',
       component: AlbumDetailComponent
   },
 ];
